@@ -21,8 +21,7 @@ SHELL_COMMANDS = {
     "simiasque": ["am", "broadcast", "-a",
                   "org.thisisafactory.simiasque.SET_OVERLAY", "--ez",
                   "enable"],
-    "profile1": ["am", "profile", "start"],
-    "profile2": ["am", "profile", "stop"],
+    "profile": ["am", "profile"],
 }
 
 # MAXIMUM NUMBER FOR 32 BITS ARCHITECTURE
