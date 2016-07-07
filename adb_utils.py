@@ -13,6 +13,7 @@ ADB_COMMANDS = {
 
 # Contains available commands to launch in an ADB SHELL
 SHELL_COMMANDS = {
+    "clear": ["pm", "clear"],
     "monkey": ["monkey", "-p"],
     "pkg": ["pm", "list", "packages"],
     "reset": ["pm", "clear"],
